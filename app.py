@@ -120,8 +120,8 @@ def detect():
         lat, lon = get_location_ip()
         send_telegram_alert(
             result["risk"], lat, lon,
-            "8290795076:AAGR8Ddd80Km3CUr-fEYd3OiQt075yN7Avo",  # Telegram Bot Token
-            "6648236435"                                    # Chat ID
+            "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",  # Telegram Bot Token
+            "XXXXXXXXXXXXX"                                    # Chat ID
         )
 
     # Save results
